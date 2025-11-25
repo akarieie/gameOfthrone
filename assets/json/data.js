@@ -12,6 +12,7 @@ var kingdom = [
     }
   },
   {
+    img  : "westerlands.webp",
     name: "The Westerlands",
     ruling_house: "Lannister",
     seat: "Casterly Rock",
@@ -23,6 +24,7 @@ var kingdom = [
     }
   },
   {
+    img  : "reach.webp",
     name: "The Reach",
     ruling_house: "Tyrell",
     seat: "Highgarden",
@@ -34,6 +36,7 @@ var kingdom = [
     }
   },
   {
+    img  : "vale.webp",
     name: "The Vale",
     ruling_house: "Arryn",
     seat: "The Eyrie",
@@ -45,6 +48,7 @@ var kingdom = [
     }
   },
   {
+    img  : "stormlands.webp",
     name: "The Stormlands",
     ruling_house: "Baratheon",
     seat: "Storm's End",
@@ -56,6 +60,7 @@ var kingdom = [
     }
   },
   {
+    img  : "dorne.webp",
     name: "Dorne",
     ruling_house: "Martell",
     seat: "Sunspear",
@@ -67,6 +72,7 @@ var kingdom = [
     }
   },
   {
+    img  : "riverlands.webp",
     name: "The Riverlands",
     ruling_house: "Tully",
     seat: "Riverrun",
@@ -78,6 +84,7 @@ var kingdom = [
     }
   },
   {
+    img  : "iron_islands.webp",
     name: "The Iron Islands",
     ruling_house: "Greyjoy",
     seat: "Pyke",
@@ -89,6 +96,7 @@ var kingdom = [
     }
   },
   {
+    img  : "crownlands.webp",
     name: "The Crownlands",
     ruling_house: "Targaryen",
     seat: "King's Landing",
