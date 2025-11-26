@@ -1,16 +1,72 @@
-.h4{
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    border-bottom: 2px solid  rgba(75, 45, 45, 0.279);
-    padding-bottom: 5px;
-    font-family: 'Courier New', Courier, monospace;
+body {
+    background: #ffffff url('') no-repeat center center/cover;
+    font-family: "Georgia", serif;
+    color: #222;
 }
+
+.navbar {
+    background: #222;
+    border-bottom: 3px solid #b68b2c;
+}
+
+.navbar-brand {
+    color: #f5d57b;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-brand img {
+    filter: brightness(0) invert(1);
+}
+
+.h1 {
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+}
+
 .card-img-top {
-    width: 100%;          
-    height: 300px;        
-    object-fit: cover;    
-  }
-  
-  
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-body {
+    background: #fff;
+    padding: 24px;
+}
+
+.card-title {
+    color: #522f2f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.h3.fw-bold {
+    color: #444;
+    font-size: 18px;
+}
+
+.h5.text-small {
+    color: #555;
+    border-left: 4px solid #b68b2c;
+    padding-left: 10px;
+}
+
+.card-text.small {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
