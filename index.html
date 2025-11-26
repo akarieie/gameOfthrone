@@ -19,15 +19,15 @@
     </div>
   </nav>
 
-  <div class="container-fluid pt-3">
+  <div class="container-fluid pt-5 pb-3 west-bg">
     <div class="row">
       <div class="col">
-        <div class="h1 text-center text-dark fw-bold shadow py-5 m-0 rounded-3 bg-white">
+        <div class="h1 text-center text-dark fw-bold shadow py-5 m-0 rounded-3">
           The Nine Great Regions of Westeros
+          <p class="text-center text-muted mt-3">
+            Explore the Nine Great Regions of Westeros
+          </p>
         </div>
-        <p class="text-center text-muted mt-3">
-          Explore the Nine Great Regions of Westeros
-        </p>
       </div>
     </div>
   </div>
@@ -38,10 +38,10 @@
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid footer ">
     <div class="row">
       <div class="col text-center text-muted py-3 border-top">
-        <div class="h5">
+        <div class="h5 footer-section">
           2025 | Game of Thrones Info Page | Project for Web Development | by Jhon Drei
         </div>
       </div>
@@ -55,16 +55,16 @@
 
     for (let i = 0; i < kingdom.length; i++) {
       cards += `
-    <div class=" col col-md-4 mb-4 rounded-3">
+    <div class=" col-12 col-md-4  mb-4 rounded-3">
       <div class="card shadow h-500">
       <img src="assets/img/`+ kingdom[i].img + `" class="card-img-top" alt="Image of ` + kingdom[i].name + `">        
         <div class="card-body">
-          <div class="h4 card-title fw-bold text-center">`+ kingdom[i].name + `</div>
-          <div class="card-text mb-2">
+          <div class="h1 card-title fw-bold text-center ">`+ kingdom[i].name + `</div>
+          <div class="card-text mb-2 h2">
             <div class="h3 fw-bold">Ruling House:</div> House `+ kingdom[i].ruling_house + `
           </div>
           
-          <div class="card-text mb-3">
+          <div class="card-text mb-3 h2">
             <div class="h3 fw-bold">Seat:</div> ` + kingdom[i].seat + `
           </div>
 
@@ -72,7 +72,7 @@
             <div class="h5 text-small">"` + kingdom[i].house_details.words + `"</div>
           </div>
 
-          <div class="h1 card-text small text-secondary">
+          <div class="h2 card-text small text-secondary">
             ` + kingdom[i].characteristics + `
           </div>
         </div>

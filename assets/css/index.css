@@ -1,5 +1,5 @@
 body {
-    background: #ffffff url('') no-repeat center center/cover;
+    background: #ffffff ;
     font-family: "Georgia", serif;
     color: #222;
 }
@@ -7,12 +7,6 @@ body {
 .navbar {
     background: #222;
     border-bottom: 3px solid #b68b2c;
-}
-
-.navbar-brand {
-    color: #f5d57b;
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
 .navbar-brand img {
@@ -44,13 +38,13 @@ p {
 }
 
 .card-title {
-    color: #522f2f;
+    color: #9f854c;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .h3.fw-bold {
-    color: #444;
+    color: #383535;
     font-size: 18px;
 }
 
@@ -69,4 +63,17 @@ p {
 .h5 {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+.h1{
+    border-bottom: #b68b2c 3px solid;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background: #222;
+    border-top: 3px solid #b68b2c;
+}
+
+.footer-section{
+    color: #ffffff;
 }
